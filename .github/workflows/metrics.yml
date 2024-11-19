@@ -12,11 +12,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.cache
-          key: ${{ runner.os }}-cache-${{ hashFiles('**/lockfiles') }}
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
       - name: Generate metrics
         uses: lowlighter/metrics@latest
@@ -56,3 +53,9 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         with:
           commit_message: "markscribe: update README.md"
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache
+          key: ${{ runner.os }}-cache-${{ hashFiles('**/lockfiles') }}
