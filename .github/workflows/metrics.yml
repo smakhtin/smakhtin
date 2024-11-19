@@ -17,7 +17,9 @@ jobs:
         with:
           path: ~/.cache
           key: ${{ runner.os }}-cache-${{ hashFiles('**/lockfiles') }}
-      - uses: lowlighter/metrics@latest
+
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
@@ -39,3 +41,18 @@ jobs:
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
           plugin_traffic: yes
+
+      - name: Generate README
+        uses: muesli/readme-scribe@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        with:
+          template: "README.gtpl"
+          writeTo: "README.md"
+
+      - name: Commit README
+        uses: stefanzweifel/git-auto-commit-action@v4
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          commit_message: "markscribe: update README.md"
