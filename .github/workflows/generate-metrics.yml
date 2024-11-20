@@ -2,25 +2,17 @@ name: Generate Metrics
 on:
   # Schedule daily updates
   schedule: [{ cron: "0 0 * * *" }]
-  # (optional) Run workflow manually
   workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
   push: { branches: ["master", "main"] }
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    concurrency:
-      group: metrics-update
-      cancel-in-progress: true
+    # concurrency:
+    #   group: metrics-update
+    #   cancel-in-progress: true
     steps:
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.cache
-          key: ${{ runner.os }}-cache-${{ hashFiles('**/lockfiles') }}
-
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
