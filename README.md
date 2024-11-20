@@ -2,18 +2,18 @@
 
 <p align="left"><img src="https://raw.githubusercontent.com/smakhtin/smakhtin/main/github-metrics.svg" /></p>
 
-### 👷 Check out what I'm currently working on
+/* ### 👷 Check out what I'm currently working on
 
 - [TheFuseLab/VL.Fuse](https://github.com/TheFuseLab/VL.Fuse) - A library for visually programming on the GPU, built to enable rapid workflows and modular approaches to accelerated graphics, logic and computation.
 - [smakhtin/vvvv-organic-motion](https://github.com/smakhtin/vvvv-organic-motion) - 
-- [smakhtin/max-heartbeat](https://github.com/smakhtin/max-heartbeat) - Heartbeat patch in Max/MSP
-### 🌱 My latest projects
+- [smakhtin/max-heartbeat](https://github.com/smakhtin/max-heartbeat) - Heartbeat patch in Max/MSP */
+/* ### 🌱 My latest projects
 
 - [smakhtin/vvvv-organic-motion](https://github.com/smakhtin/vvvv-organic-motion) - 
 - [smakhtin/max-heartbeat](https://github.com/smakhtin/max-heartbeat) - Heartbeat patch in Max/MSP
 - [smakhtin/VL.FrameRecorder](https://github.com/smakhtin/VL.FrameRecorder) - Non-realtime image sequence recorder for VL.Stride
 - [smakhtin/dasha-birthday-2020](https://github.com/smakhtin/dasha-birthday-2020) - Small VR present for my wife
-- [smakhtin/VL.Markov](https://github.com/smakhtin/VL.Markov) - Markov chain generator for VL
+- [smakhtin/VL.Markov](https://github.com/smakhtin/VL.Markov) - Markov chain generator for VL */
 ### 🔨 My recent Pull Requests
 
 - [Improvement/second evolution](https://github.com/sovereign-nature/deep/pull/1913) on [sovereign-nature/deep](https://github.com/sovereign-nature/deep)
