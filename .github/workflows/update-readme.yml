@@ -1,4 +1,4 @@
-name: Generate Metrics
+name: Update README
 on:
   # Schedule daily updates
   schedule: [{ cron: "0 0 * * *" }]
@@ -13,10 +13,16 @@ jobs:
     #   group: metrics-update
     #   cancel-in-progress: true
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          output_action: none
 
           # Options
           user: smakhtin
@@ -36,17 +42,6 @@ jobs:
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
           plugin_traffic: yes
-  markscribe:
-    needs: [github-metrics]
-    runs-on: ubuntu-latest
-    permissions:
-      # Give the default GITHUB_TOKEN write permission to commit and push the
-      # added or changed files to the repository.
-      contents: write
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
 
       - name: Generate README
         uses: muesli/readme-scribe@master
