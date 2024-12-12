@@ -13,7 +13,7 @@
 
 - [ai16z/eliza](https://github.com/ai16z/eliza) - Autonomous agents for everyone
 - [LiheYoung/Depth-Anything](https://github.com/LiheYoung/Depth-Anything) - [CVPR 2024] Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data. Foundation Model for Monocular Depth Estimation
-- [emprcl/signls](https://github.com/emprcl/signls) - :infinity: a non-linear, generative midi sequencer in the terminal
+- [emprcl/signls](https://github.com/emprcl/signls) - a non-linear, generative midi sequencer in the terminal :infinity:
 - [webarkit/jsartoolkitNFT](https://github.com/webarkit/jsartoolkitNFT) - jsartolkitNFT is a smaller version of jsartoolkit5 with only NFT support
 - [andrewyng/aisuite](https://github.com/andrewyng/aisuite) - Simple, unified interface to multiple Generative AI providers 
 ## 📫 How to reach me:
