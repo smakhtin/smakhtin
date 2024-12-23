@@ -15,7 +15,7 @@
 - [nature-cognita/cognition-api](https://github.com/nature-cognita/cognition-api) - 
 - [nature-cognita/nature-app](https://github.com/nature-cognita/nature-app) - Mobile app for Nature Cognita
 - [collabland/AI-Agent-Starter-Kit](https://github.com/collabland/AI-Agent-Starter-Kit) - Collab.Land AI Agent Starter Kit
-- [ai16z/eliza](https://github.com/ai16z/eliza) - Autonomous agents for everyone
+- [elizaOS/eliza](https://github.com/elizaOS/eliza) - Autonomous agents for everyone
 ## 📫 How to reach me:
   - Website   : <https://smakhtin.cc>
   - X   : <https://x.com/vadim_smakhtin>
