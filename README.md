@@ -11,11 +11,11 @@
 - [Removed claims and minting kvs](https://github.com/sovereign-nature/deep/pull/1889) on [sovereign-nature/deep](https://github.com/sovereign-nature/deep)
 ## ⭐ Recent Stars
 
+- [anttiviljami/product-engineer-manifesto](https://github.com/anttiviljami/product-engineer-manifesto) - Manifesto for Product Engineering: Product Thinking and technical execution combined
 - [microsoft/markitdown](https://github.com/microsoft/markitdown) - Python tool for converting files and office documents to Markdown.
 - [nature-cognita/cognition-api](https://github.com/nature-cognita/cognition-api) - 
 - [nature-cognita/nature-app](https://github.com/nature-cognita/nature-app) - Mobile app for Nature Cognita
 - [collabland/AI-Agent-Starter-Kit](https://github.com/collabland/AI-Agent-Starter-Kit) - Collab.Land AI Agent Starter Kit
-- [elizaOS/eliza](https://github.com/elizaOS/eliza) - Autonomous agents for everyone
 ## 📫 How to reach me:
   - Website   : <https://smakhtin.cc>
   - X   : <https://x.com/vadim_smakhtin>
