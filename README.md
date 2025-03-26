@@ -11,11 +11,11 @@
 - [Removed claims and minting kvs](https://github.com/sovereign-nature/deep/pull/1889) on [sovereign-nature/deep](https://github.com/sovereign-nature/deep)
 ## ⭐ Recent Stars
 
+- [PostHog/posthog](https://github.com/PostHog/posthog) - 🦔 PostHog provides open-source web &amp; product analytics, session recording, feature flagging and A/B testing that you can self-host. Get started - free.
 - [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio) - Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.
 - [anttiviljami/product-engineer-manifesto](https://github.com/anttiviljami/product-engineer-manifesto) - Manifesto for Product Engineering: Product Thinking and technical execution combined
 - [microsoft/markitdown](https://github.com/microsoft/markitdown) - Python tool for converting files and office documents to Markdown.
 - [nature-cognita/cognition-api](https://github.com/nature-cognita/cognition-api) - 
-- [nature-cognita/nature-app](https://github.com/nature-cognita/nature-app) - Mobile app for Nature Cognita
 ## 📫 How to reach me:
   - Website   : <https://smakhtin.cc>
   - X   : <https://x.com/vadim_smakhtin>
