@@ -11,11 +11,11 @@
 - [Removed claims and minting kvs](https://github.com/sovereign-nature/deep/pull/1889) on [sovereign-nature/deep](https://github.com/sovereign-nature/deep)
 ## ⭐ Recent Stars
 
+- [raganmd/touchdesigner-sop-to-svg](https://github.com/raganmd/touchdesigner-sop-to-svg) - A pipeline for handling the SOP to SVG pipeline. This is especially handy for using procedurally generated geometry for paths to be cut or plotted.
 - [riyasy/FlyPhotos](https://github.com/riyasy/FlyPhotos) - A blazing fast ultra-light photo viewer replacement for Windows. Works similar to Picasa Photo Viewer.
 - [PostHog/posthog](https://github.com/PostHog/posthog) - 🦔 PostHog provides open-source web &amp; product analytics, session recording, feature flagging and A/B testing that you can self-host. Get started - free.
 - [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio) - Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.
 - [anttiviljami/product-engineer-manifesto](https://github.com/anttiviljami/product-engineer-manifesto) - Manifesto for Product Engineering: Product Thinking and technical execution combined
-- [microsoft/markitdown](https://github.com/microsoft/markitdown) - Python tool for converting files and office documents to Markdown.
 ## 📫 How to reach me:
   - Website   : <https://smakhtin.cc>
   - X   : <https://x.com/vadim_smakhtin>
